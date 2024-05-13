@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+}
+.outer
+{
+    border: 2px solid red;
+    border-top-left-radius: 10px;
+    margin: 20px;
+    box-shadow: 10px 5px pink;
+    
+}
+.inner{
+    border: solid;
+    margin: 10px;
+    
+    
+    
+}
+#image{
+    float: left;
+}
+#para{
+    clear:left;
+}

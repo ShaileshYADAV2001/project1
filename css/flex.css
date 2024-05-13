@@ -1,0 +1,27 @@
+/* My float css starts here*/
+*{
+    box-sizing: border-box;
+}
+
+/* My float css ends here*/
+/*flex box*/
+#outer{
+    border: solid red;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction:;
+    
+}
+.inner{
+    border: 1px solid ;
+    height: 50px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: px;
+    
+    
+}
+.inner five{
+    flex-grow: center;
+}

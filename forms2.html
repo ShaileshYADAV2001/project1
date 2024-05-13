@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms2</title>
+  </head>
+  <body>
+    <mark><marquee behavior="" direction="">YADAV'S</marquee></mark>
+    <h1>Forms2</h1>
+    <!--radio buttons-->
+    <form>
+      <fieldset>
+        <legend>my form</legend>
+        <p>please choose the correct gender</p>
+        <input type="radio" name="gender" id="m" value="male" checked /><label
+          for="m"
+          >MALE</label
+        >
+        <input type="radio" name="gender" id="f" value="female" /><label for="f"
+          >FEMALE</label
+        >
+        <br /><br />
+        <p>SKILLS:</p>
+        <input
+          type="checkbox"
+          name="html"
+          id="html"
+          value="html"
+          checked
+        /><label for="html">HTML</label>
+        <input type="checkbox" name="css" id="css" value="css" /><label
+          for="css"
+          >CSS</label
+        >
+        <input type="checkbox" name="js" id="js" value="js" /><label for="js"
+          >JS</label
+        ><br /><br />
+        <!--drop downs-->
+        <select name="states" id="" multiple>
+          <option value="ap">AP</option>
+          <option value="ts">TS</option>
+          <option value="goa">GOA</option>
+          <option value="ks">KS</option>
+          <option value="mh">MH</option></select
+        ><br /><br />
+        <select name="vehicles" id="" multiple>
+          <optgroup label="bikes">
+            <option value="re">bullet</option>
+            <option value="activa">activa</option>
+          </optgroup>
+          <optgroup label="cars">
+            <option value="bmw">bmw</option>
+            <option value="tata">tata</option>
+          </optgroup>
+          <optgroup label="others">
+            <option value="cycle">bicycle</option>
+            <option value="bullocart">bullockart</option>
+          </optgroup></select
+        ><br /><br />
+        <label for="name">first time*</label>
+        <input
+          type="type"
+          id="name"
+          name="fname"
+          placeholder="enter first name....."
+          required
+          maxlength="8"
+          value="yadav"
+          pattern="[a-z]{3}"
+        /><br /><br />
+        <label for="pc">pincode*</label>
+        <input
+          type="number"
+          id="pc"
+          name="pc"
+          placeholder="enter first pincode....."
+          required
+          max="25000"
+          value="1000"
+        /><br /><br />
+        <p>i love my <abbr title="family">fy</abbr></p>
+        <del>this</del><ins>this</ins><br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit">submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
